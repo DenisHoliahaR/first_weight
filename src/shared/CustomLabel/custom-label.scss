@@ -1,0 +1,41 @@
+.custom-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+
+    &.size__small {
+        font-size: 12px;
+    }
+
+    &.size__big {
+        font-size: 22px;
+    }
+
+    &.size__extra-big {
+        font-size: 24px;
+    }
+
+    &.size__large {
+        font-size: 32px;
+    }
+
+    &.gray {
+        color: #B5B7C0;
+    }
+
+    &.green {
+        color: #16C098;
+    }
+
+    &.weight__medium {
+        font-weight: 500;
+    }
+
+    &.weight__semi-bold{
+        font-weight: 500;
+    }
+}

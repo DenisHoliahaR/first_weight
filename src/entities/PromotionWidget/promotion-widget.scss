@@ -1,0 +1,18 @@
+.promotion-widget {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 24px;
+    background: linear-gradient(to right, #EAABF0, #4623E9);
+    border-radius: 20px;
+    border: none;
+
+    p {
+        text-align: center;
+        color: #fff;
+    }
+}

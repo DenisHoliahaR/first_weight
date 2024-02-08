@@ -1,0 +1,31 @@
+.search {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+
+    img {
+        height: 24px;
+        width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        color: #B5B7C0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &.wheat {
+        background-color: #B5B7C0;
+    }
+}
