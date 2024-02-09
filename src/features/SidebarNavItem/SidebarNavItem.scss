@@ -1,0 +1,57 @@
+.sidebar-nav-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 11px;
+    transition: background-color 0.5s;
+
+    &.hidden {
+        padding: 0px;
+        width: 46px;
+        height: 46px;
+
+        div {
+            justify-content: start;
+            width: 46px;
+
+            img {
+                margin-left: 11px;
+            }
+
+            span {
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0.5s, opacity 0.4s;
+            }
+        }
+    } 
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        span {
+            opacity: 1;
+            visibility: visible;
+            transition: visibility 0.5s, opacity 0.4s;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(89, 50, 234, 1);
+        div {
+            img {
+                svg {
+                    path {
+                        stroke:white;
+                        fill:white;
+                    }
+                }
+            }
+        }
+    }
+}

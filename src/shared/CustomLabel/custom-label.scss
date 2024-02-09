@@ -1,7 +1,7 @@
 .custom-label {
     font-size: 14px;
     font-weight: 400;
-    color: #000000;
+    color: rgb(0, 0, 0);
     align-items: center;
     margin: 0;
     padding: 0;
@@ -24,11 +24,15 @@
     }
 
     &.gray {
-        color: #B5B7C0;
+        color: rgb(181, 183, 192);
     }
 
     &.green {
-        color: #16C098;
+        color: rgb(22, 192, 152);
+    }
+
+    &.blue {
+        color: rgba(73, 37, 233, 1);
     }
 
     &.weight__medium {
@@ -36,6 +40,6 @@
     }
 
     &.weight__semi-bold{
-        font-weight: 500;
+        font-weight: 600;
     }
 }
