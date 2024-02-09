@@ -15,6 +15,14 @@
         border-radius: 4px;
         background-color: rgba(238, 238, 238, 1);
 
+        &:hover {
+            background-color: rgba(89, 50, 234, 1);
+
+            p {
+                color: white;
+            }
+        }
+
     }
 
     .previous {

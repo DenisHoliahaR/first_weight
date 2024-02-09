@@ -20,8 +20,10 @@ const Paginator = () => {
     return (
         <div className="paginator">
             <button className="previous"><img src={arrow} alt="#" /></button>
-
-
+            <button><CustomLabel text="1" /></button>
+            <button><CustomLabel text="2" /></button>
+            <button><CustomLabel text="3" /></button>
+            <button><CustomLabel text="4" /></button>
             <CustomLabel text="..." style="size__small weight__medium" />
             <button className="last"><CustomLabel text={totalCount + ''} style="size__small weight__medium" /></button>
             <button className="next"><img src={arrow} alt="#" /></button>

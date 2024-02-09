@@ -44,12 +44,9 @@
     &:hover {
         background-color: rgba(89, 50, 234, 1);
         div {
-            img {
-                svg {
-                    path {
-                        stroke:white;
-                        fill:white;
-                    }
+            span {
+                p {
+                    color: white;
                 }
             }
         }
